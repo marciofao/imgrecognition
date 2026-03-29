@@ -15,7 +15,7 @@ Top 5 Predictions:
 ```
 
 
-##Practice exercise
+## Practice exercise
 
 Create a new image dataset based on the ideas given below.
 
