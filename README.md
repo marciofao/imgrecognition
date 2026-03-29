@@ -1,6 +1,13 @@
 This code example uses pretrained models for image recognition.
 
-usage:
+Run the following code compile and build your project.
+
+```
+cd /imgrecognition
+mvn clean install
+```
+
+Now run the application to see the prediction for the image you loaded.
 
 `java -jar target/imgrecognition-0.0.1-SNAPSHOT.jar`
 
