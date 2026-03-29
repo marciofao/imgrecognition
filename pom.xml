@@ -41,6 +41,28 @@
 			<scope>test</scope>
 		</dependency>
 
+				<!-- DJL Core -->
+		<dependency>
+			<groupId>ai.djl</groupId>
+			<artifactId>api</artifactId>
+			<version>0.33.0</version>
+		</dependency>
+
+		<!-- DJL PyTorch Engine (supports many pre-trained models) -->
+		<dependency>
+			<groupId>ai.djl.pytorch</groupId>
+			<artifactId>pytorch-engine</artifactId>
+			<version>0.33.0</version>
+		</dependency>
+
+		<!-- DJL PyTorch Model Zoo -->
+		<dependency>
+			<groupId>ai.djl.pytorch</groupId>
+			<artifactId>pytorch-model-zoo</artifactId>
+			<version>0.33.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -50,6 +72,17 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
+		<resources>
+            <resource>
+                <directory>src/main/resources/images</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
+
 	</build>
 
 </project>
