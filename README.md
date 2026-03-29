@@ -4,6 +4,16 @@ usage:
 
 `java -jar target/imgrecognition-0.0.1-SNAPSHOT.jar`
 
+Will output something like that:
+```
+Top 5 Predictions:
+{"className": "n03937543 pill bottle", "probability": 0,93217}
+{"className": "n03825788 nipple", "probability": 0,03130}
+{"className": "n04557648 water bottle", "probability": 0,02368}
+{"className": "n04560804 water jug", "probability": 0,00278}
+{"className": "n03690938 lotion", "probability": 0,00173}
+```
+
 
 ##Practice exercise
 Create a new image dataset based on the ideas given below.
